@@ -1,5 +1,8 @@
 body {
-    background: linear-gradient(to right, #2b00ff, #ff1cca);
+    background: 
+        url('assets/background.gif') no-repeat center center fixed,
+        linear-gradient(to right, #2b00ff, #ff1cca);
+    background-size: cover, cover;
     color: aqua;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
     text-align: center;
